@@ -56,5 +56,14 @@
             </plugin>
         </plugins>
     </build>
-
+    <distributionManagement>
+        <repository>
+            <id>local</id>
+            <url>file://E:\GitProjects\Maven Learning\deploy\</url>
+        </repository>
+        <snapshotRepository>
+            <id>snapshot-repo</id>
+            <url>file://E:\GitProjects\Maven Learning\deploy\snapshots/</url>
+        </snapshotRepository>
+    </distributionManagement>
 </project>
